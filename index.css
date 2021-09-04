@@ -1,0 +1,39 @@
+/* global element styling */
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF9F6;
+    font-family: 'Lato', sans-serif;
+}
+
+#page-wrapper {
+    /* positions elements according to the normal flow of the document
+    and can be offset relative to itself */
+    position: relative;
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+    max-width:1160px; /* 2 */
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+    }
+
+
+/* global classes styling */
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > ul {
+    list-style-type: none;
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
